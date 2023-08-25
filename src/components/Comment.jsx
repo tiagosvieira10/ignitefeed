@@ -1,4 +1,4 @@
-import { ThumbsUp, Trash } from '@phosphor-icons/react';
+import { HandsClapping, Trash } from '@phosphor-icons/react';
 import styles from './Comment.module.css'
 import { Avatar } from './Avatar';
 import { useState } from 'react';
@@ -40,7 +40,7 @@ export function Comment({content, onDeleteComment}) {
 
         <footer>
           <button onClick={handleLikeComment}>
-            <ThumbsUp size={20}/>
+            <HandsClapping size={20}/>
             Aplaudir <span>{likeCount}</span>
           </button>
         </footer>
